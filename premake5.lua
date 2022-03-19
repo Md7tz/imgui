@@ -1,10 +1,10 @@
-Project 'ImGui'
+project 'ImGui'
     kind "StaticLib"
     language "C++"
     staticruntime "off" -- Sets <RuntimeLibrary> to "MultiThreadedDLL" 
 
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-    obj ("obj/" .. outputdir .. "/%{prj.name}")
+    objdir ("!obj/" .. outputdir .. "/%{prj.name}")
 
     files 
     {
