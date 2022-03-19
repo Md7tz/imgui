@@ -54,3 +54,7 @@ examples/example_sdl_opengl3/example_sdl_opengl3
 
 .fake
 .ionide
+
+# Pulsar-specific
+bin
+obj
